@@ -11,5 +11,5 @@ ci:
     name: default
 dependencies:
   build:
-  - java:8.252.09
+  - java:14
   - maven:3.6.3
