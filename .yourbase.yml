@@ -1,5 +1,7 @@
 build_targets:
 - commands:
+  - apt-get update 
+  - apt-get install -y libaio1
   - mvn install
   container:
     image: yourbase/yb_ubuntu:18.04
